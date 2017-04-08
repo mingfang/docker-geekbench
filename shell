@@ -1,1 +1,4 @@
-docker run -v `pwd`:/docker -w /docker --rm -i -t geekbench /bin/bash
+#!/bin/bash
+source helper
+
+docker run --rm -v `pwd`:/docker -it ${IMAGE} bash
