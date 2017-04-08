@@ -1,4 +1,3 @@
-
 FROM ubuntu:16.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
@@ -22,4 +21,3 @@ RUN mv Geek* /geekbench
 
 ARG BUILD_INFO
 LABEL BUILD_INFO=$BUILD_INFO
-
